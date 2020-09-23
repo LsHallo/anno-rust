@@ -1,0 +1,10 @@
+[package]
+name = "src"
+version = "0.0.1"
+authors = ["LsHallo <xlshallox@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+amethyst = {version = "0.15.3", features = ["no-slow-safety-checks", "vulkan"]}
